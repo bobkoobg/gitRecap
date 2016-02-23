@@ -17,7 +17,11 @@ public class JavaApplication13githubRecap
      */
     public static void main(String[] args)
     {
-        System.out.println("test");
+        new JavaApplication13githubRecap().helloWorld();
+    }
+    
+    private void helloWorld(){
+        System.out.println("hello world");
     }
     
 }
